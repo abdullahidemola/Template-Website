@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+
+.general{
+   color: #FFF;
+   font-size: 2em;
+   border-radius: 5px;
+   border: 1px solid #bbb;
+   transition: all 0.3s linear;
+}
+
+.general:hover{
+    box-shadow:rgb(57, 63, 65) 10px 10px 10px;
+
+}
+
+.header{
+    background-color: rgb(42, 110, 165);
+    /* padding: 20px;
+    border-radius: 4px;
+    transition: all 0.3s linear;   */
+}
+
+
+.cover{
+    /* background-color: rgb(80, 206, 42); */
+    /* padding: 20px;
+    border-radius: 4px;
+    transition: all 0.3s linear; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+.grid{
+    background-color: rgb(15, 198, 230);
+    /* padding: 20px;
+    border-radius: 4px;
+    transition: all 0.3s linear; */
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+}
+
+.footer{
+    background-color: rgb(255, 230, 0);
+    /* padding: 20px;
+    border-radius: 4px;
+    transition: all 0.3s linear;  */
+    text-align: center;
+}
+
+
+/* NAV BAR */
+
+.fixed{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    font-size: 20px;   
+}
+
+@media only screen and (max-width:600px)  {
+    .nav{
+        font-size: 0.4em;
+        padding: 0px;
+    }
+    
+}
+
+li{
+    margin: 20px;
+    list-style: none;
+}
+
+a{
+    color:azure;
+    text-decoration:none; 
+}
+
+.contact{
+    margin-left: auto;
+}
+
+.cover{
+    width: auto;
+}
+
+/* GRID */
+
+img{
+    width: 100%;
+}  
+
+.box{
+    background-color: #444;
+    padding: 100px;
+    margin: 40px;
+}
